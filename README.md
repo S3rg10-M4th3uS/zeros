@@ -70,8 +70,6 @@ python -m report.gerar
 
 O gerador produz `report/relatorio.pdf`, uma versão Markdown, seis gráficos e resultados CSV/JSON. O JSON preserva entradas, históricos, ambiente e amostras temporais. Os tempos mudam entre execuções.
 
-**Antes da entrega**, preencha `report/equipe.json` com os nomes de até três integrantes e suas contribuições reais e gere o PDF novamente. Enquanto houver o nome `A preencher`, o PDF traz um aviso de revisão. Revise o relatório e publique o código no repositório GitHub da equipe.
-
 ## Organização
 
 - `src/metodos.py`: algoritmos e estados de execução.
@@ -83,4 +81,3 @@ O gerador produz `report/relatorio.pdf`, uma versão Markdown, seis gráficos e 
 - `tests/`: validação numérica e de entradas.
 - `report/gerar.py`: geração do relatório a partir de novas medições.
 
-O enunciado diverge sobre escolher um ou resolver os dois problemas de engenharia; ambos foram incluídos. Truncamento/arredondamento aparecem na rubrica, mas não nas especificações desta atividade de zeros; não foram implementados como operações independentes. A apresentação arredonda números sem alterar os valores usados nos cálculos.
