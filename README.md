@@ -1,6 +1,5 @@
 # Zeros · Cálculo Numérico
 
-Código, comentários e identificadores próprios em português; nomes exigidos pelo Python e pelas bibliotecas são preservados.
 
 Simulador de Bissecção, Falsa Posição clássica, Newton-Raphson e Secante para o Projeto Unidade 1 (2026.2). Inclui os três exemplos do enunciado, funções personalizadas, tabela comparativa, gráficos, históricos e exportação CSV/JSON.
 
