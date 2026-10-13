@@ -1,0 +1,13 @@
+﻿Problema,Método,Raiz,Iterações,Tempo (µs),Resíduo |f(x)|,Estado
+Validação: cos(x) − x,Bissecção,0.7390851974487305,20,41.24,1.0750207668497325e-07,Convergiu
+Validação: cos(x) − x,Falsa Posição,0.7390847824489231,5,13.83,5.870465491497612e-07,Convergiu
+Validação: cos(x) − x,Newton-Raphson,0.7390851339208068,3,12.4,1.1809778710514252e-09,Convergiu
+Validação: cos(x) − x,Secante,0.7390851121274639,4,10.829,3.52926228242012e-08,Convergiu
+Resfriamento do componente,Bissecção,7.3240819573402405,25,80.009,1.4798778735780616e-07,Convergiu
+Resfriamento do componente,Falsa Posição,7.324082080526686,21,68.719,7.023267940553524e-07,Convergiu
+Resfriamento do componente,Newton-Raphson,7.324081924365939,5,27.739,3.965645589687483e-10,Convergiu
+Resfriamento do componente,Secante,7.32408192450148,6,22.9,2.1337243083507929e-10,Convergiu
+Carregamento do capacitor,Bissecção,1.4271163940429688,18,59.289,4.6083386884276933e-08,Convergiu
+Carregamento do capacitor,Falsa Posição,1.4271170252785956,23,75.169,8.035658707328253e-07,Convergiu
+Carregamento do capacitor,Newton-Raphson,1.4271163488244514,5,24.71,8.178832722194329e-09,Convergiu
+Carregamento do capacitor,Secante,1.4271163606759056,6,22.889,6.042911948611618e-09,Convergiu
