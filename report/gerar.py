@@ -167,7 +167,8 @@ def principal():
               "separado desse tema. Os cálculos usam ponto flutuante e apenas a apresentação arredonda os valores.")
     paragrafo("Participação dos integrantes", True)
     for integrante in equipe:
-        paragrafo(f"{integrante['nome']}: {integrante['contribuicao']}")
+        contribuicao = integrante.get("contribuicao", "").strip()
+        paragrafo(f"{integrante['nome']}: {contribuicao}" if contribuicao else integrante["nome"])
     paragrafo("Material de referência", True)
     paragrafo("Enunciado fornecido da disciplina Cálculo Numérico, Projeto Unidade 1 (Zeros), 2026.2. "
               "Os resultados e gráficos foram gerados pelo código deste projeto; consultar README.md para reprodução.")
